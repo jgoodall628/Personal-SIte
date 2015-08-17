@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Me</title>
+
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="http://bootswatch.com/superhero/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+	    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand navbar-right" href="#">Jeffrey Goodall</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="#">Home</a></li>
+	        <li><a href="#">Résumé</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div class="jumbotron">
+		<h1>Jeffrey Goodall</h1>
+		<h2>Texas Tech Graduate, Chemical Engineer, Software Developer</h2>
+	</div>
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6">
+				<img src="images/JEFF_2703_1024.jpg" class="img-responsive">
+
+
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>About Me</h2>
+
+						<p>My name is Jeffrey Goodall. I am a former chemical engineer looking to make a career change into software development. I am an excellent problem solver and chemical engineering has provided me with great critical thinking skills as well. I am hoping to find a small company with a fun, friendly atmosphere that is willing to take a chance on me. I am smart and creative and I am ready to put the software experience I do have to the test.</p>
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FIX42Vc971k"></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="contact-header">Contact Me</h3>
+						<div class="contact-info">
+							<p>Phone: 936-520-6279 <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></p>
+							<p>Email: jgoodall628@gmail.com <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></p>
+							<p>Facebook: https://www.facebook.com/jeffrey.goodall1 <img class="img-responsive logo" src="images/FB-f-Logo__white_50.png"></p>
+							<p>Github: https://github.com/jgoodall628 <img class = "img-responsive logo" src="images/GitHub-Mark-Light-32px.png"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="col">Fast Facts</h2>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class = "col-md-6">
+				<div class="panel panel-info">
+		        	<div class="panel-heading">Education</div>
+					<ul class="list-group">
+						<li class="list-group-item">Currently enrolled in Tech Talent South coding program for web development</li>
+						<li class="list-group-item">Chemical engineering degree from Texas Tech University, graduated Magna Cum Laude</li>
+						<li class="list-group-item">High School Salutatorian</li>
+					</ul>
+				</div>
+				<div class="panel panel-info">
+		        	<div class="panel-heading">Hobbies</div>
+					<ul class="list-group">
+						<li class="list-group-item">Tennis</li>
+						<li class="list-group-item">Video Games</li>
+						<li class="list-group-item">Football/Fantasy Football</li>
+					</ul>
+				</div>
+			</div>
+
+
+		<div class="col-md-6">
+			<div class="panel panel-info">
+				<div class="panel-heading">Software Experience</div>
+				<ul class="list-group">
+					<li class="list-group-item">Ruby on rails</li>
+					<li class="list-group-item">Python</li>
+					<li class="list-group-item">C/C++</li>
+					<li class="list-group-item">HTML/CSS</li>
+				</ul>
+			</div>
+
+			<div class="panel panel-info">
+		    <div class="panel-heading">Career</div>
+				<ul class="list-group">
+					<li class="list-group-item">Process Engineer at Fluor Corporation</li>
+					<li class="list-group-item">Undergraduate Research at Texas Tech University, main research included developing microfluidic simulation software.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script>
+			$(document).ready(function() {
+				$(".panel-heading").click(function() {
+					$(this).toggleClass(".visible")
+					if ($(this).hasClass(".visible")) {
+						$(this).next().hide(500);
+					} else {
+						$(this).next().show(500);
+					}
+
+				});
+			});
+		</script>
+
+		</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
