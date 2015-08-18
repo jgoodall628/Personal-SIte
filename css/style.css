@@ -20,9 +20,16 @@
 	border-color: #637A84
 }*/
 .logo {
-	display: inline; 
+	display: inline;
 	height: 16px;
 	width: auto;
 }
-
-
+.highlight {
+	background-color: #A2D4E3 !important;
+}
+.contact-link {
+	color: #ebebeb;
+}
+.panel-heading {
+	cursor: pointer;
+}
